@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube.com Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+
+    </head>
+    <body>
+
+        <header class="header"> 
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-apps-icon-container">
+                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">YouTube apps</div>
+                </div>
+                
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="notifications-count">7</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="current-user-picture" src="thumbnails/Channel-pictures/N.jpg">
+            </div>
+            
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icon" src="icons/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+       
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=CUL_i-cY6RI"><img class="thumbnail" src="thumbnails/thumbnail-BarisOzcan.webp"></a>
+                        <div class="video-time">9:49</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                           <a href="https://www.youtube.com/@BarisOzcan"><img class="profile-picture" src="thumbnails/Channel-pictures/BarisOzcan_Profile.jpg"></a>
+                        </div> 
+                        <div class="video-info">
+                            <p class="video-title">
+                                Dünyanın en büyük şelalesi suyun altında!
+                            </p>
+                    
+                            <p class="video-author">
+                                Barış Özcan
+                            </p>
+                    
+                            <p class="video-stats">
+                                141K views &#183; 3 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row"> 
+                        <a href="https://www.youtube.com/watch?v=rYEDA3JcQqw"><img class="thumbnail" src="thumbnails/thumbnail-Adele.webp"></a>
+                        <div class="video-time">3:54</div>
+                    </div>
+                    <div class="video-info-grid">
+                    <div class="channel-picture">
+                         <a href="https://www.youtube.com/channel/UCsRM0YB_dabtEPGPTKo-gcw"><img class="profile-picture" src="thumbnails/Channel-pictures/Adele_profile.jpg"></a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">           
+                            Adele - Rolling in the Deep (Official Music Video)
+                        </p>
+                
+                        <p class="video-author">
+                            Adele
+                        </p>
+                
+                        <p class="video-stats">
+                            2,1M views &#183; 12 years ago
+                        </p>
+                
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=hYkN5MnRdVU"><img class="thumbnail" src="thumbnails/thumbnail-EvrimAgaci.webp"></a>
+                        <div class="video-time">9:13</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                           <a href="https://www.youtube.com/@evrimagaci"><img class="profile-picture" src="thumbnails/Channel-pictures/EvrimAgaci_profile.jpg"></a>
+                        </div> 
+                        <div class="video-info">
+                            <p class="video-title">        
+                                Senin Kırmızınla Benim Kırmızım Aynı mı?
+                            </p>
+                    
+                            <p class="video-author">
+                                Evrim Ağacı
+                            </p>
+                    
+                            <p class="video-stats">
+                                71K views &#183; 2 hours ago
+                            </p>
+                        </div>      
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                        <div class="thumbnail-row"> 
+                            <a href="https://www.youtube.com/watch?v=-3j4a0A6XIc"><img class="thumbnail" src="thumbnails/thumbnail-Friends.webp"></a>
+                            <div class="video-time">3:22</div>
+                        </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@TaylorSwiftTourExtras"><img class="profile-picture" src="thumbnails/Channel-pictures/Taylor_profile.jpg"></a>
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">                
+                                Taylor Swift & Lisa Kudrow - Smelly Cat (Live on The 1989 World Tour)
+                            </p>
+                    
+                            <p class="video-author">
+                                Taylor Swift's Tour Extras
+                            </p>
+                    
+                            <p class="video-stats">
+                                703K views &#183; 1 years ago
+                            </p>
+                    
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=Qhaz36TZG5Y"><img class="thumbnail" src="thumbnails/thumbnail-fireship.webp"></a>
+                        <div class="video-time">9:38</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@Fireship"><img class="profile-picture" src="thumbnails/Channel-pictures/fireship_profil.jpg"></a>
+                        </div> 
+                        <div class="video-info">
+                            <p class="video-title">    
+                                10 CSS Pro Tips - Code this, NOT that!
+                            </p>
+                    
+                            <p class="video-author">
+                                Fireship
+                            </p>
+                    
+                            <p class="video-stats">
+                                1,5M views &#183; 1 years ago
+                            </p>
+                        </div>      
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                        <div class="thumbnail-row"> 
+                            <a href="https://www.youtube.com/watch?v=fv6YJcSfHP8"><img class="thumbnail" src="thumbnails/thumbnail-HaberTurk.webp"></a>
+                            <div class="video-time">3:04:06</div>
+                        </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@haberturktv"><img class="profile-picture" src="thumbnails/Channel-pictures/HaberTurk_profile.jpg"></a>
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">           
+                                Türk toplumu bilime mesafeli mi? | Teke Tek Bilim - 20 Mart 2023
+                            </p>
+                    
+                            <p class="video-author">
+                                Habertürk TV
+                            </p>
+                    
+                            <p class="video-stats">
+                                1,1M views &#183; 4 days ago
+                            </p>
+                    
+                        </div>                    
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=thd30yzytiE"><img class="thumbnail" src="thumbnails/thumbnail-himym.webp"></a>
+                        <div class="video-time">8:03</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                           <a href="https://www.youtube.com/@schrbctskys"><img class="profile-picture" src="thumbnails/Channel-pictures/himym_profile.jpg"></a>
+                        </div> 
+                        <div class="video-info">
+                            <p class="video-title">
+                                how i met your mother with no context
+                            </p>
+                    
+                            <p class="video-author">
+                                schrbctsky
+                            </p>
+                    
+                            <p class="video-stats">
+                                239K views &#183; 2 months ago
+                            </p>
+                        </div>
+                       
+                        
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=68vQYVPf3u8"><img class="thumbnail" src="thumbnails/thumbnail-jimmyKimmel.webp"></a>
+                        <div class="video-time">8:36</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                           <a href="https://www.youtube.com/@JimmyKimmelLive"><img class="profile-picture" src="thumbnails/Channel-pictures/JimmyKimmel_profile.jpg"></a>
+                        </div> 
+                        <div class="video-info">
+                            <p class="video-title">
+                                Modern Family Feud (2013)
+                            </p>
+                    
+                            <p class="video-author">
+                                Jimmy Kimmel Live
+    
+                            </p>
+                    
+                            <p class="video-stats">
+                                5.1M views &#183; 2 years ago
+                            </p>
+                        </div>
+                       
+                        
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=WPPPFqsECz0"><img class="thumbnail" src="thumbnails/thumbnail-kurzgesagt.webp"></a>
+                        <div class="video-time">10:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                           <a href="https://www.youtube.com/@kurzgesagt"><img class="profile-picture" src="thumbnails/Channel-pictures/Kurzgezasgt_profile.jpg"></a>
+                        </div> 
+                        <div class="video-info">
+                            <p class="video-title">
+                                Memnuniyetsizlik için Bir Panzehir
+                            </p>
+                    
+                            <p class="video-author">
+                                Kurzgesagt
+                            </p>
+                    
+                            <p class="video-stats">
+                                14M views &#183; 3 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=M5EiCvjsIQY"><img class="thumbnail" src="thumbnails/thumbnail-nailea.webp"></a>
+                        <div class="video-time">13:51</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                           <a href="https://www.youtube.com/@Naileadevora"><img class="profile-picture" src="thumbnails/Channel-pictures/Nailea_profile.jpg"></a>
+                        </div> 
+                        <div class="video-info">
+                            <p class="video-title">
+                                flop eras
+                            </p>
+                    
+                            <p class="video-author">
+                                nailea devora
+                            </p>
+                    
+                            <p class="video-stats">
+                                205K views &#183; 2 days ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=YZ4WUXVi0f8&t=11s"><img class="thumbnail" src="thumbnails/thumbnail-NoluyoYa.webp"></a>
+                        <div class="video-time">50:34</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                           <a href="https://www.youtube.com/@NoluyoYaa"><img class="profile-picture" src="thumbnails/Channel-pictures/NoluyoYa_profile.jpg"></a>
+                        </div> 
+                        <div class="video-info">
+                            <p class="video-title">
+                                Düşük Bütçeli Talk Şov / Cemal Can Canseven
+                            </p>
+                    
+                            <p class="video-author">
+                                Noluyo Ya ¿
+                            </p>
+                    
+                            <p class="video-stats">
+                                1.2M views &#183; 1 days ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=RrWBhVlD1H8"><img class="thumbnail" src="thumbnails/thumbnail-TedEd.webp"></a>
+                        <div class="video-time">5:57</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                           <a href="https://www.youtube.com/@TEDEd"><img class="profile-picture" src="thumbnails/Channel-pictures/TedEd_profile.jpg"></a>
+                        </div> 
+                        <div class="video-info">
+                            <p class="video-title">
+                                Bipolar bozukluk nedir? - Helen M. Farrell
+                            </p>
+                    
+                            <p class="video-author">
+                                TED-Ed
+                            </p>
+                    
+                            <p class="video-stats">
+                                13M views &#183; 6 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>               
+    </body>
+</html>
